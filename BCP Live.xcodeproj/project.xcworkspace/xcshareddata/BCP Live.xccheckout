@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C5FC5C18-49C7-4448-85F9-4FC049B71D58</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BCP Live</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6E0DA0A87D869CF53FA685B54B62748400CEFA44</key>
+		<string>https://github.com/rebner123/BCP-Live.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BCP Live.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6E0DA0A87D869CF53FA685B54B62748400CEFA44</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rebner123/BCP-Live.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6E0DA0A87D869CF53FA685B54B62748400CEFA44</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6E0DA0A87D869CF53FA685B54B62748400CEFA44</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BCP%20Live</string>
+		</dict>
+	</array>
+</dict>
+</plist>
