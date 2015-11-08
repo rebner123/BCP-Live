@@ -156,6 +156,7 @@
 		A49585AD1BF00D57004670C1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Ryan Ebner";
 				TargetAttributes = {
@@ -411,6 +412,7 @@
 				A49585D61BF00D57004670C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A49585D71BF00D57004670C1 /* Build configuration list for PBXNativeTarget "BCP LiveTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +421,7 @@
 				A49585D91BF00D57004670C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
