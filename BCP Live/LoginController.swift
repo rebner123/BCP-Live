@@ -8,11 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LoginController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        // hides that awful navigationController bar at the top of the login screen
+        self.navigationController?.navigationBarHidden = true
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,17 +22,20 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    // function that passes data in fullNameField onto HomeController
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        var DestViewController : HomeController = segue.destinationViewController as! HomeController
+        DestViewController.greetText = fullNameField.text!
+    }
     
-
-
+    
     // login page buttons
     @IBOutlet weak var studentIDField: UITextField!
     @IBOutlet weak var fullNameField: UITextField!
     
-    // login
+    // student login function
     @IBAction func login(sender: AnyObject) {
         
-
         let studentID = self.studentIDField.text
         let fullName = self.fullNameField.text
         
@@ -48,8 +53,7 @@ class ViewController: UIViewController {
             alert.show()
         }
         else {
-            let alert = UIAlertView(title: "Login Successful", message: nil, delegate: self, cancelButtonTitle: "Ok")
-            alert.show()
+            performSegueWithIdentifier("loginSegue", sender: nil)
         }
     }
 }
