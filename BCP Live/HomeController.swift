@@ -25,4 +25,12 @@ class HomeController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    @IBOutlet weak var logoutButton: UIButton!
+    
+    @IBAction func logout(sender: AnyObject){
+        // code for switching to LoginController
+        dismissViewControllerAnimated(true, completion:nil)
+    }
 }

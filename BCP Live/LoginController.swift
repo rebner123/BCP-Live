@@ -13,6 +13,7 @@ class LoginController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
         // hides that awful navigationController bar at the top of the login screen
         self.navigationController?.navigationBarHidden = true
     }
@@ -22,9 +23,9 @@ class LoginController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    // function that passes data in fullNameField onto HomeController
+    // function that passes data in fullNameField to HomeController
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        var DestViewController : HomeController = segue.destinationViewController as! HomeController
+        let DestViewController : HomeController = segue.destinationViewController as! HomeController
         DestViewController.greetText = fullNameField.text!
     }
     
@@ -54,6 +55,11 @@ class LoginController: UIViewController {
         }
         else {
             performSegueWithIdentifier("loginSegue", sender: nil)
+            
+            // clears text fields so they aren't filled after a logout
+            // happens after segue so the fullNameField.text can be passed to HomeController via prepareForSegue
+            studentIDField.text = ""
+            fullNameField.text = ""
         }
     }
 }
