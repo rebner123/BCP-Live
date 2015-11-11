@@ -1,26 +1,18 @@
 //
-//  HomeController.swift
+//  FanHomeController.swift
 //  BCP Live
 //
-//  Created by Spencer on 11/8/15.
+//  Created by Spencer on 11/10/15.
 //  Copyright © 2015 Ryan Ebner. All rights reserved.
 //
 
 import UIKit
 
-class HomeController: UIViewController {
-    
-    // greeting label
-    @IBOutlet weak var greetLabel: UILabel!
-    // variable that receives data
-    var greetText = String()
+class FanHomeController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        // changes the label based on given name
-        greetLabel.text = "Hello, \(greetText)."
     }
     
     override func didReceiveMemoryWarning() {
@@ -29,12 +21,11 @@ class HomeController: UIViewController {
     }
     
     // logout button
-    @IBOutlet weak var logoutButton: UIButton!
+    @IBOutlet weak var fanLogoutButton: UIButton!
     
     // logout function
-    @IBAction func logout(sender: AnyObject){
+    @IBAction func fanLogout(sender: AnyObject){
         // code for switching to LoginController
         dismissViewControllerAnimated(true, completion:nil)
     }
 }
-

@@ -12,7 +12,6 @@ import Foundation
 This dictionary is used in the login
 It has its own file because it will hold ~1600 keys and ~1600 names
 */
-
 let students = [
     "216001": "Spencer Hall",
     "216002": "Ryan Ebner",

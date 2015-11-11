@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0977975A1BF02D1B00CF0211 /* StudentDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097797591BF02D1B00CF0211 /* StudentDict.swift */; };
 		0999EFBE1BF060230053F475 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0999EFBD1BF060230053F475 /* HomeController.swift */; };
+		09D312441BF3027500407237 /* FanHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D312431BF3027500407237 /* FanHomeController.swift */; };
 		A49585BB1BF00D57004670C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49585BA1BF00D57004670C1 /* AppDelegate.swift */; };
 		A49585BD1BF00D57004670C1 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49585BC1BF00D57004670C1 /* LoginController.swift */; };
 		A49585C01BF00D57004670C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49585BE1BF00D57004670C1 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		097797591BF02D1B00CF0211 /* StudentDict.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentDict.swift; sourceTree = "<group>"; };
 		0999EFBD1BF060230053F475 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		09D312431BF3027500407237 /* FanHomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanHomeController.swift; sourceTree = "<group>"; };
 		A49585B51BF00D57004670C1 /* BCP Live.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BCP Live.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A49585B91BF00D57004670C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A49585BA1BF00D57004670C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				0999EFBD1BF060230053F475 /* HomeController.swift */,
 				097797591BF02D1B00CF0211 /* StudentDict.swift */,
 				A49585BE1BF00D57004670C1 /* Main.storyboard */,
+				09D312431BF3027500407237 /* FanHomeController.swift */,
 				A49585C11BF00D57004670C1 /* Images.xcassets */,
 				A49585C31BF00D57004670C1 /* LaunchScreen.xib */,
 				A49585B81BF00D57004670C1 /* Supporting Files */,
@@ -222,6 +225,7 @@
 			files = (
 				0999EFBE1BF060230053F475 /* HomeController.swift in Sources */,
 				0977975A1BF02D1B00CF0211 /* StudentDict.swift in Sources */,
+				09D312441BF3027500407237 /* FanHomeController.swift in Sources */,
 				A49585BD1BF00D57004670C1 /* LoginController.swift in Sources */,
 				A49585BB1BF00D57004670C1 /* AppDelegate.swift in Sources */,
 			);
