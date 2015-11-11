@@ -55,11 +55,14 @@ class LoginController: UIViewController {
             let alert = UIAlertView(title: "Login Failed", message: "ID not found", delegate: self, cancelButtonTitle: "Ok")
             alert.show()
         }
-        else if fullName! != students[studentID!] { // case 2
+        else if fullName!.lowercaseString != students[studentID!]?.lowercaseString { // case 2
             let alert = UIAlertView(title: "Login Failed", message: "Name does not match ID", delegate: self, cancelButtonTitle: "Ok")
             alert.show()
         }
         else {
+            // makes sure greeting is capitalized in case they don't capitalize their name in the text field
+            fullNameField.text = students[studentID!]
+            
             performSegueWithIdentifier("loginSegue", sender: nil)
             // clears text fields so they aren't filled after a logout
             // happens after segue so the fullNameField.text can be passed to HomeController via prepareForSegue
