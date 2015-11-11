@@ -111,14 +111,6 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Vn-wI-gUn">
-                                <rect key="frame" x="178" y="141" width="107" height="30"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
-                                <state key="normal" title="Instagram Feed">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G8O-8a-1Mc">
                                 <rect key="frame" x="51" y="103" width="69" height="30"/>
                                 <animations/>
@@ -155,35 +147,35 @@
                                 <rect key="frame" x="180" y="73" width="120" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="___________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Bg-to-2vN">
                                 <rect key="frame" x="162" y="83" width="138" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="___________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xye-yJ-kQW">
                                 <rect key="frame" x="16" y="83" width="138" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="League" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UqY-kp-x1Q">
                                 <rect key="frame" x="20" y="72" width="72" height="23"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PB2-ze-Mp5">
-                                <rect key="frame" x="133" y="318" width="56" height="30"/>
+                                <rect key="frame" x="130" y="318" width="62" height="30"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
-                                <state key="normal" title="Shedule">
+                                <state key="normal" title="Schedule">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
@@ -207,14 +199,14 @@
                                 <rect key="frame" x="92" y="258" width="138" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="School" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dwd-5z-t9U">
                                 <rect key="frame" x="130" y="249" width="60" height="23"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tu1-MK-6Lr">
@@ -224,6 +216,17 @@
                                 <state key="normal" title="ASB Updates">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Vn-wI-gUn">
+                                <rect key="frame" x="170" y="141" width="123" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <state key="normal" title="Instagram Feed">
+                                    <color key="titleColor" red="0.1019607843" green="0.14117647059999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="4fS-Jp-axP" kind="modal" id="llB-Ec-u9T"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
@@ -238,6 +241,34 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J8O-2z-tCB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1624" y="375"/>
+        </scene>
+        <!--Insta Feed Controller-->
+        <scene sceneID="Sxn-XJ-bdz">
+            <objects>
+                <viewController id="4fS-Jp-axP" customClass="InstaFeedController" customModule="BCP_Live" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ICJ-Er-nMJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="hUp-fd-Y43"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Gdb-SF-u5b">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instagram Feed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DuW-AI-3dO">
+                                <rect key="frame" x="93" y="28" width="134" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="16"/>
+                                <color key="textColor" red="0.058823529409999999" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.1019607843" green="0.14117647059999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Md-0X-nUK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2108" y="375"/>
         </scene>
         <!--Fan Home Controller-->
         <scene sceneID="tk9-s2-p80">
