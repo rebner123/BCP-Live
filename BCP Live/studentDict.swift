@@ -13,10 +13,9 @@ This dictionary is used in the login
 It has its own file because it will hold ~1600 keys and ~1600 names
 */
 let students = [
-    "1": "a",
     "216001": "Spencer Hall",
     "216002": "Ryan Ebner",
     "216003": "Brian Oneil",
     "216004": "Corey Camacho-Light",
-    "216005": "Dominick Daprile",
+    "216085": "Dominick Daprile",
 ]
